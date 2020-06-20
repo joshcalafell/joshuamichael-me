@@ -13,7 +13,10 @@
     "bundle-report": "webpack-bundle-analyzer www/stats-es2015.json",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "release:patch": "yarn version --patch && git push --follow-tags",
+    "release:minor": "yarn version --minor && git push --follow-tags",
+    "release:major": "yarn version --major && git push --follow-tags"
   },
   "private": true,
   "dependencies": {
