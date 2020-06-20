@@ -1,0 +1,13 @@
+p {
+    margin-top: 16px;
+    font-size: 1rem;
+    line-height: 1.33rem;
+}
+
+p:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+ion-footer > ion-toolbar > ion-title {
+    font-size: 12px;
+}

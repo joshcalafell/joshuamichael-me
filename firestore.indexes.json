@@ -1,0 +1,47 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "computer_frameworks",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "years",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "name",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "computer_languages",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "years",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "name",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "computer_technologies",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "years",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "name",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

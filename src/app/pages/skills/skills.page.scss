@@ -1,0 +1,40 @@
+ion-footer > ion-toolbar > ion-title {
+    font-size: 12px;
+}
+
+ion-grid ion-row ion-card ion-card-content {
+    max-height: unset !important;
+    height: unset !important;
+}
+
+/* Popover Interface: set color for the popover using Item's CSS variables */
+.my-custom-interface .select-interface-option {
+    --color: #971e49;
+    --color-hover: #79193b;
+  }
+  
+  /* Action Sheet Interface: set color for the action sheet using its button CSS variables */
+  .my-custom-interface .select-interface-option {
+    --button-color: #971e49;
+    --button-color-hover: #79193b;
+  }
+  
+  /* Alert Interface: set color for alert options (single selection) */
+  .my-custom-interface .select-interface-option .alert-radio-label {
+    color: #971e49;
+  }
+  
+  /* Alert Interface: set color for alert options (multiple selection) */
+  .my-custom-interface .select-interface-option .alert-checkbox-label {
+    color: #971e49;
+  }
+  
+  /* Alert Interface: set color for checked alert options (single selection) */
+  .my-custom-interface .select-interface-option[aria-checked=true] .alert-radio-label {
+    color: #79193b;
+  }
+  
+  /* Alert Interface: set color for checked alert options (multiple selection) */
+  .my-custom-interface .select-interface-option[aria-checked=true] .alert-checkbox-label {
+    color: #79193b;
+  }

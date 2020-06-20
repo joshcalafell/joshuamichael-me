@@ -1,0 +1,26 @@
+<app-header></app-header>
+<ion-content>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title size="large">Experience</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12">
+        <ion-card class="">
+          <ion-card-content>
+            <ul>
+              <li *ngFor="let item of items;">
+                <p>{{ item }}</p>
+              </li>
+            </ul>
+            <br />
+            <p>For a full resume, feel free to <a routerLink="/contact">Contact Me</a>.</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<app-footer></app-footer>

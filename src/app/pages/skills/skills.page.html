@@ -1,0 +1,53 @@
+<app-header></app-header>
+
+<ion-content>
+
+  <ion-header>
+    <ion-toolbar>
+      <ion-title size="large">Skills</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-grid>
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-segment (ionChange)="setDisplayType($event.target.value)" value="list" color="primary">
+          <ion-segment-button value="list">
+            <ion-label>List</ion-label>
+            <ion-icon name="list-outline"></ion-icon>
+          </ion-segment-button>
+          <ion-segment-button value="chart">
+            <ion-label>Chart</ion-label>
+            <ion-icon name="bar-chart-outline"></ion-icon>
+          </ion-segment-button>
+        </ion-segment>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12" *ngIf="displayType === 1">
+        <app-skills-card *ngIf="languages$ | async as obj" [title]="'Languages'" [items]="obj">
+        </app-skills-card>
+        <app-skills-card *ngIf="frameworks$ | async as obj" [title]="'Frameworks'" [items]="obj">
+        </app-skills-card>
+        <app-skills-card *ngIf="technologies$ | async as obj" [title]="'Technologies'" [items]="obj">
+        </app-skills-card>
+      </ion-col>
+
+      <ion-col size="12" *ngIf="displayType === 2">
+        <app-skills-chart *ngIf="languages$ | async as obs" [title]="'Languages'" [items]="obs">
+        </app-skills-chart>
+        <app-skills-chart *ngIf="frameworks$ | async as obj" [title]="'Frameworks'" [items]="obj">
+        </app-skills-chart>
+        <app-skills-chart *ngIf="technologies$ | async as obj" [title]="'Technologies'" [items]="obj">
+        </app-skills-chart>
+      </ion-col>
+
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content>
+
+<app-footer></app-footer>

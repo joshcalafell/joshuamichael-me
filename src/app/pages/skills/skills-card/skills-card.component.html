@@ -1,0 +1,22 @@
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>
+      {{ title }}
+    </ion-card-title>
+    <ion-card-subtitle>My top {{ title | lowercase }}</ion-card-subtitle>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-list>
+      <ion-item *ngFor="let item of items;" lines="none">
+        <ion-icon name="checkmark" color="success" slot="start">
+        </ion-icon>
+        <ion-label>
+          {{ item.name }}
+        </ion-label>
+        <ion-badge slot="end" color="primary">
+          {{ item.years | years }}
+        </ion-badge>
+      </ion-item>
+    </ion-list>
+  </ion-card-content>
+</ion-card>
