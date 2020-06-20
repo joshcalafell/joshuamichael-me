@@ -1053,10 +1053,10 @@
     which "^1.3.0"
     xml2js "^0.4.19"
 
-"@capacitor/core@2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-2.1.2.tgz#d710b2a873f8c9ba1184a67f6c27bdb2a3a0a4af"
-  integrity sha512-oi+n23h9cJ/yaeMIlrnoeCV5p7pv2XWdT+cXzwh9j72LV+Y/oSGcNgFWGEAR/B1UVlv6LnLLQSs9CUXhNlh+Nw==
+"@capacitor/core@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-2.2.0.tgz#60f7b2126a5a223cb1ede055a65df6ad0d719f4b"
+  integrity sha512-ClxXjOUCF0wZpznZI6f6uXK2LLzWBx5Ly/g7Hqu8R8wNdaKYoh83eMuT+m5G1gfxhcALAAJNUhHccnCW3ohftg==
   dependencies:
     tslib "^1.9.0"
 
@@ -5300,7 +5300,7 @@ globby@^7.1.1:
     pify "^3.0.0"
     slash "^1.0.0"
 
-google-auth-library@^5.0.0, google-auth-library@^5.5.0:
+google-auth-library@5.x, google-auth-library@^5.0.0, google-auth-library@^5.5.0:
   version "5.10.1"
   resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-5.10.1.tgz#504ec75487ad140e68dd577c21affa363c87ddff"
   integrity sha512-rOlaok5vlpV9rSiUu5EpR0vVpc+PhN62oF4RyX/6++DG1VsaulAFEMlDYBLjJDDPI6OcNOCGAKy9UVB/3NIDXg==
