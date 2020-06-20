@@ -1,8 +1,8 @@
 {
   "name": "joshuamichael",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Joshua Michael Waggoner",
-  "homepage": "https://github.com/rabbitfighter81/joshuamichael",
+  "homepage": "https://github.com/rabbitfighter81/joshuamichael-me",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
