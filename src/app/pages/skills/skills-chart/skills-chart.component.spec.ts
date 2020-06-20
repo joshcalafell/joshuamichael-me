@@ -18,10 +18,10 @@ describe('SkillsChartComponent', () => {
     fixture.detectChanges();
   }));
 
-  afterEach(async() => {
+  afterEach(async(() => {
     component.title = undefined;
     component.items = undefined;
-  });
+  }));
 
   it('should create', () => {
     component.title = 'Frameworks';

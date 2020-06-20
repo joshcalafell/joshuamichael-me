@@ -13,7 +13,7 @@ export class ContactService {
 
   /**
    * Posts message
-   * @param input 
+   * @param input - The form input
    */
   postMessage(input: any) {
     return this.http.post(this.api, input, { responseType: 'text' }).pipe(

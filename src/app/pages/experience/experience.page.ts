@@ -8,15 +8,6 @@ import { SeoService } from 'src/app/services/seo/seo.service';
 })
 export class ExperiencePage implements OnInit {
 
-  constructor(private seo: SeoService) {}
-
-  ngOnInit() {
-    this.seo.generateTags({
-      title: 'Joshua Michael Waggoner - Experience',
-      description: 'My experiences gained in the workplace'
-    });
-  }
-
   items = [
     'Planning and development of features for both greenfield and enterprise applications',
     'Writing extensive developer and user documentation',
@@ -33,5 +24,14 @@ export class ExperiencePage implements OnInit {
     'Management and Team Lead Experience',
     'Training and educating junior team members'
   ];
+
+  constructor(private seo: SeoService) {}
+
+  ngOnInit() {
+    this.seo.generateTags({
+      title: 'Joshua Michael Waggoner - Experience',
+      description: 'My experiences gained in the workplace'
+    });
+  }
 
 }

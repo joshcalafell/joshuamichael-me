@@ -8,18 +8,18 @@ export class BarChart implements IBarChart {
 
     chart: Chart;
 
-    constructor({ elem, labels, years }: { elem: HTMLCanvasElement; labels: string[]; years: number[]; }) {
+    constructor({ elem, labels, data }: { elem: HTMLCanvasElement; labels: string[]; data: number[]; }) {
         this.chart = new Chart(elem, {
             type: 'bar',
             data: {
-                labels: labels,
+                labels,
                 datasets: [
                     {
                         barPercentage: 100,
-                        maxBarThickness: 23,
+                        maxBarThickness: 15,
                         minBarLength: 5,
                         label: 'Experience in years',
-                        data: years,
+                        data,
                         backgroundColor: 'rgba(234, 84, 85, 0.33)', // array should have same number of elements as number of dataset
                         borderColor: 'rgba(255, 84, 85, 1)', // array should have same number of elements as number of dataset
                         borderWidth: 1,

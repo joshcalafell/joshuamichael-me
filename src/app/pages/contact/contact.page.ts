@@ -28,7 +28,7 @@ export class ContactPage implements OnInit {
     this.seo.generateTags({
       title: 'Joshua Michael Waggoner - Contact',
       description: 'Contact page to get in touch with Joshua Michael Waggoner'
-    }); 
+    });
   }
 
   /**
@@ -48,7 +48,7 @@ export class ContactPage implements OnInit {
 
   /**
    * Gets validation errors
-   * @param form 
+   * @param form - The from passed in
    */
   getFormValidationErrors(form: FormGroup) {
     const result = [];

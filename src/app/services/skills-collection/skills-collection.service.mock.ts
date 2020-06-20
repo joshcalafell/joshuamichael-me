@@ -1,12 +1,6 @@
 export class SkillsCollectionServiceMock {
-    constructor() { }
-  
-    getComputerLanguages() {
-    }
-  
-    getComputerTechnologies() {
-    }
-  
-    getComputerFrameworks() {
-    }
-  }
+  constructor() {}
+  getComputerLanguages() {}
+  getComputerTechnologies() {}
+  getComputerFrameworks() {}
+}

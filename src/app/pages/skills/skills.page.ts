@@ -13,7 +13,7 @@ import { DisplayType } from 'src/app/pages/skills/display-type.enum';
 export class SkillsPage implements OnInit {
 
   displayType = DisplayType.List;
-  
+
   technologies$: Observable<Skill[]>;
   languages$: Observable<Skill[]>;
   frameworks$: Observable<Skill[]>;
@@ -38,7 +38,7 @@ export class SkillsPage implements OnInit {
 
   /**
    * Sets the display type enum
-   * @param displayType {string} - The type string passed in
+   * @param displayType - The type string passed in
    */
   setDisplayType(displayType: string): void {
     if (displayType === 'list') {
