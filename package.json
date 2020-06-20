@@ -1,6 +1,6 @@
 {
   "name": "joshuamichael",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Joshua Michael Waggoner",
   "homepage": "https://github.com/rabbitfighter81/joshuamichael-me",
   "scripts": {
@@ -9,12 +9,11 @@
     "build": "ng build",
     "build:prod": "ionic build --prod",
     "build:stats": "ng build --prod --aot --stats-json",
-    "analyze": "npx webpack-bundle-analyzer dist/stats.json",
+    "analyze": "npx webpack-bundle-analyzer www/stats-es2015.json",
+    "bundle-report": "webpack-bundle-analyzer www/stats-es2015.json",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "bundle-report": "webpack-bundle-analyzer www/stats.json",
-    "stats": "webpack-bundle-analyzer www/stats-es2015.json"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
