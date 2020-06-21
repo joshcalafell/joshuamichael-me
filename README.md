@@ -4,7 +4,7 @@ This is my professional web and mobile presence. The app itself is an Ionic/Angu
 
 ## Technologies
 
-* Angular 9.1.7
+* Angular 10
 * Ionic 5
 * TypeScript/JavaScript/ECMA
 * Google Cloud Platform
