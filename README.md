@@ -1,6 +1,6 @@
 # joshuamichael.me
 
-This is my professional web and mobile presence. The app itself is an Ionic/Angular Typescript based UI that is connected to Google Firebase for database, storage, cloud functions, and hosting. 
+This is my professional web and mobile presence. The app itself is an Ionic/Angular Typescript based UI that is connected to Google Firebase for database, storage, cloud functions, and hosting. You can click on the github icon to see the codebase!
 
 ## Technologies
 
@@ -9,6 +9,7 @@ This is my professional web and mobile presence. The app itself is an Ionic/Angu
 * TypeScript/JavaScript/ECMA
 * Google Cloud Platform
 * Google Firebase
+* Webpack Bundle Analyzer
 
 ## Additional features
 
