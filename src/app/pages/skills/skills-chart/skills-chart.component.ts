@@ -1,5 +1,4 @@
 import { AfterViewInit, Component, ViewChild } from '@angular/core';
-import { Skill } from 'src/app/models/skill.model';
 import { BarChart } from '../../../models/bar-chart.model';
 import { SkillsBaseComponent } from '../skills-base/skills-base.component';
 

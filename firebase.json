@@ -27,7 +27,7 @@
     ],
     "headers": [
       {
-        "source": "www",
+        "source": "www/**",
         "headers": [
           {
             "key": "Cache-Control",

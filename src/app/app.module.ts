@@ -20,7 +20,7 @@ import { SeoService } from './services/seo/seo.service';
     AppRoutingModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: true }),
   ],
   providers: [
     SeoService,
