@@ -20,8 +20,8 @@ export class BarChart implements IBarChart {
                         minBarLength: 5,
                         label: 'Experience in years',
                         data,
-                        backgroundColor: 'rgba(234, 84, 85, 0.33)', // array should have same number of elements as number of dataset
-                        borderColor: 'rgba(255, 84, 85, 1)', // array should have same number of elements as number of dataset
+                        backgroundColor: '#920dc733', // array should have same number of elements as number of dataset
+                        borderColor: '#920dc7', // array should have same number of elements as number of dataset
                         borderWidth: 1,
                     },
                 ],
