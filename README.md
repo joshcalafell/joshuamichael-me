@@ -21,7 +21,7 @@ This is my professional web and mobile presence. The app itself is an Ionic/Angu
 
 ## The Future
 
-[-] Add articles
-[-] Add cloud functions to update experienc in years
-[-] Switch to new DB schema for a skill timeline. 
-[-] Better Email solution
+[x] Add articles
+[x] Add cloud functions to update experienc in years
+[x] Switch to new DB schema for a skill timeline. 
+[x] Better Email solution
