@@ -25,23 +25,53 @@
       </ion-col>
     </ion-row>
 
+
+
     <ion-row>
       <ion-col size="12" *ngIf="displayType === 1">
-        <app-skills-card *ngIf="languages$ | async as obj" [title]="'Languages'" [items]="obj">
-        </app-skills-card>
-        <app-skills-card *ngIf="frameworks$ | async as obj" [title]="'Frameworks'" [items]="obj">
-        </app-skills-card>
-        <app-skills-card *ngIf="technologies$ | async as obj" [title]="'Technologies'" [items]="obj">
-        </app-skills-card>
+        <div *ngIf="languages$ | withLoading | async as obs">
+          <app-skills-card *ngIf="obs.value" [title]="'Languages'" [items]="obs.value">
+          </app-skills-card>
+          <app-skeleton-list *ngIf="obs.loading"></app-skeleton-list>
+          <app-error *ngIf="obs.error" [error]="obs.error"></app-error>
+        </div>
+
+        <div *ngIf="frameworks$ | withLoading | async as obs">
+          <app-skills-card *ngIf="obs.value" [title]="'Frameworks'" [items]="obs.value">
+          </app-skills-card>
+          <app-skeleton-list *ngIf="obs.loading"></app-skeleton-list>
+          <app-error *ngIf="obs.error" [error]="obs.error"></app-error>
+        </div>
+
+        <div *ngIf="technologies$ | withLoading | async as obs">
+          <app-skills-card *ngIf="obs.value" [title]="'Technologies'" [items]="obs.value">
+          </app-skills-card>
+          <app-skeleton-list *ngIf="obs.loading"></app-skeleton-list>
+          <app-error *ngIf="obs.error" [error]="obs.error"></app-error>
+        </div>
       </ion-col>
 
       <ion-col size="12" *ngIf="displayType === 2">
-        <app-skills-chart *ngIf="languages$ | async as obs" [title]="'Languages'" [items]="obs">
-        </app-skills-chart>
-        <app-skills-chart *ngIf="frameworks$ | async as obj" [title]="'Frameworks'" [items]="obj">
-        </app-skills-chart>
-        <app-skills-chart *ngIf="technologies$ | async as obj" [title]="'Technologies'" [items]="obj">
-        </app-skills-chart>
+        <div *ngIf="languages$ | withLoading | async as obs">
+          <app-skills-chart *ngIf="obs.value" [title]="'Languages'" [items]="obs.value">
+          </app-skills-chart>
+          <app-skeleton-list *ngIf="obs.loading"></app-skeleton-list>
+          <app-error *ngIf="obs.error" [error]="obs.error"></app-error>
+        </div>
+
+        <div *ngIf="frameworks$ | withLoading | async as obs">
+          <app-skills-chart *ngIf="obs.value" [title]="'Frameworks'" [items]="obs.value">
+          </app-skills-chart>
+          <app-skeleton-list *ngIf="obs.loading"></app-skeleton-list>
+          <app-error *ngIf="obs.error" [error]="obs.error"></app-error>
+        </div>
+
+        <div *ngIf="technologies$ | withLoading | async as obs">
+          <app-skills-chart *ngIf="obs.value" [title]="'Technologies'" [items]="obs.value">
+          </app-skills-chart>
+          <app-skeleton-list *ngIf="obs.loading"></app-skeleton-list>
+          <app-error *ngIf="obs.error" [error]="obs.error"></app-error>
+        </div>
       </ion-col>
 
     </ion-row>
