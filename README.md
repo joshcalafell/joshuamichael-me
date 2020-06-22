@@ -21,7 +21,10 @@ This is my professional web and mobile presence. The app itself is an Ionic/Angu
 
 ## The Future
 
-* [-] Add articles
-* [-] Add cloud functions to update experienc in years
-* [-] Switch to new DB schema for a skill timeline. 
-* [-] Better Email solution
+- [ ] Add articles
+- [ ] Add cloud functions to update experienc in years
+- [ ] Switch to new DB schema for a skill timeline. 
+- [ ] Better Email solution
+- [x] Update to Angular 10
+- [x] Crate new workspace to migrate to
+- [ ] Migrate to new workspace
