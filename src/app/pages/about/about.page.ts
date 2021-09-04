@@ -11,8 +11,8 @@ export class AboutPage implements OnInit {
 
   ngOnInit() {
     this.seo.generateTags({
-      title: 'Joshua Michael Waggoner - About',
-      description: 'Homepage for Joshua Michael Waggoner'
+      title: 'Joshua Michael Calafell - About',
+      description: 'Homepage for Joshua Michael Calafell'
     });
   }
 }
