@@ -11,7 +11,7 @@ export class NotFoundPage implements OnInit {
 
   ngOnInit() {
     this.seo.generateTags({
-      title: 'Joshua Michael Waggoner - Page Not Found',
+      title: 'Joshua Michael Calafell - Page Not Found',
       description: 'Page not found'
     });
   }

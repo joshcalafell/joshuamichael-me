@@ -1,7 +1,7 @@
 {
   "name": "joshuamichael",
   "version": "0.0.21",
-  "author": "Joshua Michael Waggoner",
+  "author": "Joshua Michael Calafell",
   "homepage": "https://github.com/rabbitfighter81/joshuamichael-me",
   "scripts": {
     "ng": "ng",
@@ -81,5 +81,5 @@
     "webpack": "^4.0.0 || ^5.0.0",
     "webpack-bundle-analyzer": "^3.8.0"
   },
-  "description": "Homepage for Joshua Michael Waggoner"
+  "description": "Homepage for Joshua Michael Calafell"
 }

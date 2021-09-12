@@ -26,8 +26,8 @@ export class ContactPage implements OnInit {
 
   ngOnInit() {
     this.seo.generateTags({
-      title: 'Joshua Michael Waggoner - Contact',
-      description: 'Contact page to get in touch with Joshua Michael Waggoner'
+      title: 'Joshua Michael Calafell - Contact',
+      description: 'Contact page to get in touch with Joshua Michael Calafell'
     });
   }
 

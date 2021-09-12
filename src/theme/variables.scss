@@ -3,12 +3,19 @@
 
 
 @mixin padding() {
-  --ion-grid-padding-lg: 22px;
-  --ion-grid-padding-xl: 26px;
-  --ion-grid-padding-md: 18px;
+ 
 }
 
 @mixin colors() {
+  
+}
+/** Ionic CSS Variables **/
+:root {
+  --ion-grid-padding-lg: 22px;
+  --ion-grid-padding-xl: 26px;
+  --ion-grid-padding-md: 18px;
+  
+
   /** primary **/
   --ion-color-primary: #b037e0;
   --ion-color-primary-rgb: 176, 55, 224;
@@ -74,11 +81,6 @@
    --ion-color-light-contrast-rgb: 255,255,255;
    --ion-color-light-shade: #1e2023;
    --ion-color-light-tint: #383a3e;
-}
-/** Ionic CSS Variables **/
-:root {
-  @include padding;
-  @include colors;
 }
 
 @media (prefers-color-scheme: dark) {

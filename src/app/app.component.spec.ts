@@ -73,7 +73,7 @@ describe('AppComponent', () => {
     expect(menuItems[3].getAttribute('ng-reflect-router-link')).toEqual('/contact');
     // expect(menuItems[3].getAttribute('href')).toEqual('https://codepen.io/rabbitfighter81');
     // expect(menuItems[4].getAttribute('href')).toEqual('https://github.com/rabbitfighter81');
-    // expect(menuItems[5].getAttribute('href')).toEqual('https://www.linkedin.com/in/joshua-waggoner/');
+    // expect(menuItems[5].getAttribute('href')).toEqual('https://www.linkedin.com/in/joshua-Calafell/');
     // expect(menuItems[6].getAttribute('href')).toEqual('https://twitter.com/rabbitfighter81');
     // expect(menuItems[7].getAttribute('href')).toEqual('https://www.instagram.com/rabbitfighter81/');
   });

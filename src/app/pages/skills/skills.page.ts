@@ -31,7 +31,7 @@ export class SkillsPage implements OnInit {
 
     // SEO
     this.seo.generateTags({
-      title: 'Joshua Michael Waggoner - Skills',
+      title: 'Joshua Michael Calafell - Skills',
       description: 'Languages, frameworks, and technologies used extensively by me'
     });
   }
